@@ -1,0 +1,50 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\uCPf.dll (this message is harmless)
+Loading D:\Sammy's Jumps Application_Data\Managed\uCPf.dll into Unity Child Domain
+- Completed reload, in  0.128 seconds
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Sammy's Jumps Application_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5760x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.359579 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UI.MaskUtilities.GetRectMaskForClippable (IClippable clippable) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.MaskableGraphic.UpdateClipParent () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.MaskableGraphic.OnEnable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UI.MaskUtilities.GetRectMaskForClippable (IClippable clippable) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.MaskableGraphic.UpdateClipParent () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.MaskableGraphic.OnEnable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 1468 -> priority: 1 
+  Thread -> id: 1248 -> priority: 1 
+  Thread -> id: 25ec -> priority: 1 
+Failed to store screen shot
+ 
+(Filename:  Line: 278)
+
